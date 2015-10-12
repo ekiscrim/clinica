@@ -12,7 +12,11 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-
-		$this->load->view('home');
+		$data['saludo'] = "hola mundo";
+		$this->load->view('template/header.php');
+		$this->load->view('template/menu.php');
+		$this->load->view('home',$data);
+		$this->load->view('template/footer.php');
+		
 	}
 }
