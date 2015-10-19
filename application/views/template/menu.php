@@ -3,42 +3,44 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<div class="container">
+		<header>
+			<nav class="navbar navbar-default" role="navigation">
+			<!-- El logotipo y el icono que despliega el menú se agrupan
+			para mostrarlos mejor en los dispositivos móviles -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Desplegar navegación</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand logo" href="#"><img src="<?php echo base_url("assets/img/logobarras.png") ?>"</img> <p>Dr. Manuel Sanchez Nebreda</p></a>
+					<img class="inst" src="<?php echo base_url("assets/img/inst.png") ?>"</img>
+				</div>
 
-	<header>
-		<div class="container">
-			<h1 class="navbar-brand navbar-brand_ logo">
-				<a href="#">
-					<img alt="" src="assets/img/logo.png"></img>
-				</a>
-			</h1>
-			<nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
-				<ul class="nav sf-menu clearfix">
-					<li class="active sub-menu">
-						<a href="#">home
-							<em></em>
-							<span></span>
-						</a>
-							<li>
-								<a href="#">historia</a>
-							</li>
-							<li>
-								<a href="#">staff</a>
-							</li>
-					</li>
-					
-					<li id="null">
-						<a href="#">servicios</a>
-					</li>
-					<li id="null">
-						<a href="#">staff</a>
-					</li>
-					<li id="null">
-						<a href="#">links</a>
-					</li>
-					<li id="null">
-						<a href="#">contacto</a>
-					</li>
+			<!-- Agrupar los enlaces de navegación, los formularios y cualquier
+			otro elemento que se pueda ocultar al minimizar la barra -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Quiénes somos</a></li>
+					<li><a href="#">Servicio</a></li>
+					<li><a href="#">Equipo</a></li>
+					<li><a href="#">Galería</a></li>
+					<li><a href="#">Contacto</a></li>
+					<!-- <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menú #1 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Acción #1</a></li>
+							<li><a href="#">Acción #2</a></li>
+							<li><a href="#">Acción #3</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Acción #4</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Acción #5</a></li>
+						</ul>
+					</li> -->
 				</ul>
-			</nav>
-	</header>
-	
+		</header>
+	</div>
+
