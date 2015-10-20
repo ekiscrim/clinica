@@ -183,3 +183,17 @@ h3{
      width: 100%;
 
   }
+  .imagen1 img{
+    width: 300px;
+    clear: both;
+  }
+  h3{
+    clear: both;
+  }
+
+  .ciru p{
+    text-align: justify;
+    display: inline-block;
+    margin-top:5%;
+     font-family:"Open Sans", sans-serif;
+  }
