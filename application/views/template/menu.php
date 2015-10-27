@@ -2,6 +2,7 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url("assets/js/viewportchecker.js"); ?>"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<div class="container">
 		<header>
@@ -43,4 +44,5 @@
 				</ul>
 		</header>
 	</div>
+
 

@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- si lo quitas, adios responsive http://librosweb.es/libro/bootstrap_3/capitulo_1/desactivando_el_diseno_responsive.html -->
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.css"); ?>" />
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/micss.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo base_url("assets/css/animate.css"); ?>" />
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

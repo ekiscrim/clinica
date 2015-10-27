@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
+html, body {
+    height: 100%;
+}
 h3{
     font-family:"Open Sans", sans-serif;
     color:grey;
@@ -197,3 +199,68 @@ h3{
     margin-top:5%;
      font-family:"Open Sans", sans-serif;
   }
+
+.galeriaIndex img{
+  width: 250px;
+  display: inline;
+  float: left;
+  margin-right: 15px;
+
+}
+.VerMas{
+  float: left;
+  clear: both;
+  margin-top:10px;
+}
+.actualidad{
+  background-color: #e4f3ed;
+  padding-bottom: 35px;
+
+}
+.actualidad p{
+   text-align: justify;
+   font-family:"Open Sans", sans-serif;
+   margin: 20px;
+
+}
+.leerMasActualidad{
+    float: left;
+  clear: both;
+  margin-top:11px;
+}
+.footer{
+min-height: 300px;
+margin-top: 100px;
+background-color: #6cbb9c;
+padding-top: 35px;
+color:#FFFFFF;
+
+}
+.footer p{
+  float: left;
+}
+#mapa{
+  padding-left: 50px;
+  width: 500px;
+  display: inline-block;
+  }
+  #mapa iframe{
+    height: 225px;
+  }
+.localizacion{
+  color:#FFFFFF;
+  margin-left:10%;
+}
+.direccion{
+  color:#FFFFFF;
+}
+.pie{
+  margin-top:-2%;
+}
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
