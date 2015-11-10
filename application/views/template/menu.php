@@ -3,6 +3,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/viewportchecker.js"); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url("assets/js/jasny-bootstrap.min.js"); ?>"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<div class="container">
 		<header>
@@ -16,7 +17,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand logo" href="#"><img src="<?php echo base_url("assets/img/logobarras.png") ?>"</img> <p>Dr. Manuel Sanchez Nebreda</p></a>
+					<a class="navbar-brand logo" href="<?php echo base_url() ?>"><img src="<?php echo base_url("assets/img/logobarras.png") ?>"</img> <p>Dr. Manuel Sanchez Nebreda</p></a>
 					<img class="inst" src="<?php echo base_url("assets/img/inst.png") ?>"</img>
 				</div>
 
@@ -24,11 +25,11 @@
 			otro elemento que se pueda ocultar al minimizar la barra -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Quiénes somos</a></li>
-					<li><a href="#">Servicio</a></li>
-					<li><a href="#">Equipo</a></li>
-					<li><a href="#">Galería</a></li>
-					<li><a href="#">Contacto</a></li>
+					<li class="<?php echo active('somos'); ?>"><a href="<?php echo base_url();?>somos">Quiénes somos</a></li>
+					<li class="<?php echo active('Servicios'); ?>"><a href="<?php echo base_url();?>servicios#nariz">Servicios</a></li>
+					<li class="<?php echo active('equipo'); ?>"><a href="<?php echo base_url();?>equipo">Equipo</a></li>
+					<li class="<?php echo active('galeria'); ?>"><a href="<?php echo base_url();?>galeria">Galería</a></li>
+					<li class="<?php echo active('contacto'); ?>"><a href="<?php echo base_url();?>contacto">Contacto</a></li>
 					<!-- <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menú #1 <b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -42,6 +43,7 @@
 						</ul>
 					</li> -->
 				</ul>
+			</nav>
 		</header>
 	</div>
 

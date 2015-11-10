@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') OR exit('No tienes acceso directo');
 
 class Welcome extends CI_Controller {
 
